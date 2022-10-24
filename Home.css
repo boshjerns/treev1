@@ -16,6 +16,11 @@
   margin: 30px auto 60px;
 }
 
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
     min-height: 1406px;
