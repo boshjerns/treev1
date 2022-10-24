@@ -9,7 +9,11 @@
 .u-section-1 .u-image-1 {
   width: 570px;
   height: 570px;
-  margin: 200px auto 60px;
+  margin: 100px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 30px auto 60px;
 }
 
 @media (max-width: 767px) {
@@ -30,9 +34,14 @@
 
   .u-section-1 .u-image-1 {
     height: 340px;
-    margin-top: 0;
+    margin-top: -28px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 0;
   }
 }
